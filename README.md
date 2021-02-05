@@ -27,7 +27,7 @@ Basic:
 ```yml
 steps:
   - uses: actions/checkout@v1
-  - uses: rahul-deepsource/pyaction@v1.4.0
+  - uses: rahul-deepsource/pyaction@1.4.0
 ```
 
 Options:
@@ -35,7 +35,7 @@ Options:
 ```yml
 steps:
   - uses: actions/checkout@v1
-  - uses: rahul-deepsource/pyaction@v1.4.0
+  - uses: rahul-deepsource/pyaction@1.4.0
     with:
       python-root-list: "src/ tests/"
       use-pycodestyle: false
