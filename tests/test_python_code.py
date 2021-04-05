@@ -1,14 +1,9 @@
-"""Just one teste"""
-
-import uuid
+import this  # unused import
 
 
-def get_name_len(name: str) -> int:
-    """Len var"""
+def name_len(name: str) -> int:
     return len(name)
 
 
-def start():
-    "Run ... "
-    print(get_name_len("Ricardo"))
-    print(uuid.uuid4().hex)
+if __name__ == "__main__":
+    print(name_len(12))
